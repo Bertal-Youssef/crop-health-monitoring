@@ -1,4 +1,3 @@
-# crop-health-monitoring
 # Crop Health Monitoring (Sentinel-2)
 
 Tools to turn Sentinel-2 L2A imagery into vegetation index maps (NDVI, NDRE, SAVI) for precision agriculture. Designed for small-to-medium fields with simple, reproducible steps on Windows, macOS, or Linux.

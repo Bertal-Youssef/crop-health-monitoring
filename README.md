@@ -15,6 +15,7 @@ Tools to turn Sentinel-2 L2A imagery into vegetation index maps (NDVI, NDRE, SAV
   - **B04 (Red, 10 m)**, **B08 (NIR, 10 m)** → NDVI  
   - **B05 (Red-edge, 20 m)**, **B8A (Narrow NIR, 20 m)** → NDRE  
 - We resample B05 and B8A to **10 m** so all math is pixel-aligned.
+<img width="945" height="532" alt="Image" src="https://github.com/user-attachments/assets/54282101-d93d-42ee-8472-b41defd49208" />
 
 _(For a concise domain overview used to shape this pipeline, see the attached internship report.)_ :contentReference[oaicite:0]{index=0}
 
@@ -33,7 +34,6 @@ _(For a concise domain overview used to shape this pipeline, see the attached in
       ├─ environment.yml
       └─ README.md
 
-<img width="945" height="532" alt="Image" src="https://github.com/user-attachments/assets/54282101-d93d-42ee-8472-b41defd49208" />
 ## 🛠️ Requirements
 - Python 3.10+ (Conda recommended)
 - GDAL, Rasterio, Numpy, GeoPandas, Shapely

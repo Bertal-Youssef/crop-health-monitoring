@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+/.venv/
+.env
+.ipynb_checkpoints/
+
+# Data (large / derived)
+data/
+!data/.gitkeep           # keep folder placeholder if you like
+
+# GDAL/Raster sidecars & temps
+*.aux.xml
+*.ovr
+*.tfw
+*.prj
+*.wld
+*.xml
+*.idx
+*.lock
+
+# Local tools / cache
+.localtileserver/
+leafmap_data/
+.DS_Store
+Thumbs.db

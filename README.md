@@ -19,19 +19,19 @@ Tools to turn Sentinel-2 L2A imagery into vegetation index maps (NDVI, NDRE, SAV
 _(For a concise domain overview used to shape this pipeline, see the attached internship report.)_ :contentReference[oaicite:0]{index=0}
 
 ## 📂 Project structure
-├─ data/
-│ ├─ S2/
-│ │ └─ L2A/<product_id>/
-│ └─ indices/
-│ ├─ R10m_tif/ # resampled 10 m bands live here
-│ └─ outputs/ # final indices + clipped rasters
-├─ aoi/
-│ └─ aoi.geojson
-├─ scripts/
-│ ├─ compute_indices.py
-│ └─ utils.py
-├─ environment.yml
-└─ README.md
+      ├─ data/
+      │ ├─ S2/
+      │ │ └─ L2A/<product_id>/
+      │ └─ indices/
+      │ ├─ R10m_tif/ # resampled 10 m bands live here
+      │ └─ outputs/ # final indices + clipped rasters
+      ├─ aoi/
+      │ └─ aoi.geojson
+      ├─ scripts/
+      │ ├─ compute_indices.py
+      │ └─ utils.py
+      ├─ environment.yml
+      └─ README.md
 
 <img width="945" height="532" alt="Image" src="https://github.com/user-attachments/assets/54282101-d93d-42ee-8472-b41defd49208" />
 ## 🛠️ Requirements
